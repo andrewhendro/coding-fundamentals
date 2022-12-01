@@ -1,0 +1,116 @@
+
+header{
+    width: 100%;
+    height: 300px;
+    background-color: lightblue;
+}
+
+main{
+    width: 100%;
+    height: 600px;
+    background-color: #5EC8C8;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    background-color: #F6F6F6;
+}
+.footer-link{
+    min-width: 50%;
+
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    min-width: 60%;
+    height: auto;
+    padding: 0;
+}
+
+li{
+    
+    margin: 10px 25px 10px 25px;
+    font-family: sans-serif;
+    color: #1c1c1c;
+}
+
+.social-link{
+    width: max-content;
+    height: 100px;
+}
+
+.ul-social-link{
+    width: max-content;
+    max-height: max-content;
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+.social-icon{
+    margin: 10px;
+}
+
+.copyright{
+    margin: 50px 0px 50px 0;
+    color: darkgrey;
+}
+
+
+
+
+
+
+
+
+
+
+
+.fa { 
+    padding: 15px 10px 15px 10px;
+    font-size: 500px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0;
+  }
+  
+
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-instagram{
+    background-color: #8a3ab9;
+    color: white;
+  }
+
+  .fa-whatsapp{
+    background-color: #4Fce5d;
+    color: white;
+  }
+
+  .fa-youtube{
+    background-color: red;
+    color: white;
+  }
