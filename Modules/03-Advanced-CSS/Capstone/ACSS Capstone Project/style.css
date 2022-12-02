@@ -1,0 +1,340 @@
+
+body{
+    margin: 0;
+}
+
+
+.nav-container{
+    background-color: #12294C;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.nav-bar{
+    display: flex;
+    margin: 20px 200px 20px 200px;
+    width: 100%;
+    
+
+  
+}
+
+.icon{
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.icon-img{
+    width: 60px;
+    height: 60px;
+    color: white;
+    
+}
+.nav-bar-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.navigation-links{
+    width: 600px;
+
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+    margin-left: 30px;
+    
+}
+
+l{
+    margin: 0px 20px 0 px 20px;
+}
+
+a {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+}
+
+.login-button{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 15px 40px;
+    border: 1px solid darkgrey;
+    padding: 8px 20px 8px 20px;
+    border-radius: 30px;
+    background-color: lightgrey;
+    color: black;
+    font-family: sans-serif;
+}
+
+.login-button:hover{
+    background-color: darkgray;
+    font: black;
+}
+
+.button-container{
+    margin-right: 25px;
+
+}
+
+header{
+    background-color: #C3CCD3;
+
+}
+.main-container{
+    margin: 0 20%;
+    padding-top: 60px;
+    padding-bottom: 92px;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.content{
+    font-family: sans-serif;
+    color: white ;
+    font-size: 24px;
+    font-weight: 400;
+    text-shadow: rgb(151, 67, 67);
+    max-width: 50%;
+
+}
+
+.sub-content{
+    font-family: sans-serif;
+    color: black;
+    font-size: 22px;
+    max-width: 50%;
+
+}
+
+.phone-img , .email-img{
+    width: 20px;
+    height: 20px;
+    padding-right: 10px;
+}
+
+.phone{
+    display: flex;
+    flex-direction: row;
+    padding-right: 10px;
+    margin: 15px 20%;
+    height: auto;
+}
+
+.email{
+    display: flex;
+    flex-direction: row;
+    margin: 15px 20%;
+    height: auto;
+    width: fit-content;
+}
+.container-contact{
+    font-family: sans-serif;
+    max-width: 100%;
+}
+.contact-card{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    margin: 40px 20%;
+    max-width: 100%;
+}
+
+.first-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-left{
+    max-width: 30%;
+    background-color: aliceblue;
+    margin: 0px auto;
+}
+
+.contact-right{
+    width: 70%
+}
+
+
+.contact-information{
+    margin: 50px 20%;
+    margin-bottom: 20px;
+    font-size: larger;
+}
+
+.company-description{
+    margin: 10px 20%;
+    width: 70%;
+    margin-bottom: 50px;
+    height: auto;
+}
+
+.contact-right-title{
+    
+margin: 50px 50px;
+font-size: larger;
+}
+
+
+.first-name{
+    width: 100%;
+}
+.last-name{
+    width: 100%;
+    margin-left: 10%;
+}
+
+.email-right{
+    width: 100%;
+
+}
+
+.phone-right{
+    width: 100%;
+    margin-left: 10%;
+
+}
+input{
+    width: 100%;
+    height: 20px;
+    margin: 5px 0px 5px 0px;
+    border: 1px solid darkgrey;
+    flex-basis: auto;
+    flex-grow: 1;
+    border-radius: 5px;
+    
+}
+
+label{
+}
+
+.first-row{
+    margin: 0px 50px 0px 50px;
+    min-width: auto;
+
+}
+
+.second-row{
+    margin: 20px 50px 20px 50px;
+    min-width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+   
+}
+
+.subject{
+    margin: 20px 50px;
+}
+
+.text-subject{
+    width: 100%;
+}
+
+.message{
+    margin: 20px 50px;
+    position: relative;
+
+}
+
+textarea{
+    width: 100%;
+    margin: 5px 0px 5px 0px;
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+}
+
+.submit-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 10px 50px;
+    margin-bottom: 40px;
+}
+
+.submit-btn{
+    border: 1px solid #3F4D63;
+    padding: 8px 25px 8px 25px;
+    background-color: #3F4D63;
+    color: white;
+    font-size: 14px;
+}
+
+.optional{
+    position: absolute;
+    top: 0px;
+    right: 0;
+    color: grey;
+    font-size: 15px;
+
+}
+
+.remarks{
+    position: absolute;
+    top: 0px;
+    right: 0;
+    color: grey;
+
+}
+
+.fa {
+    padding: 10px 5px;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-github{
+    background-color: black;
+    color: white;
+  }
+
+  .social-link{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .ul-social-link{
+    width: 50%;
+    margin: 0;
+  }
